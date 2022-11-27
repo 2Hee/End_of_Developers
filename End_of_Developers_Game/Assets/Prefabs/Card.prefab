@@ -182,6 +182,8 @@ GameObject:
   - component: {fileID: 5239928523457997004}
   - component: {fileID: 140645090771886157}
   - component: {fileID: 5239928523457997006}
+  - component: {fileID: 8002924943809562622}
+  - component: {fileID: -8677545758607995959}
   m_Layer: 6
   m_Name: Card
   m_TagString: Untagged
@@ -303,6 +305,70 @@ MonoBehaviour:
   - {fileID: 5239928523890925700}
   - {fileID: 5239928522823533955}
   sortingLayerName: Card
+--- !u!60 &8002924943809562622
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5239928523457997005}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.9375, y: 3.875}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.46875, y: 1.9375}
+      - {x: -1.46875, y: -1.9375}
+      - {x: -0.66055274, y: -2.832383}
+      - {x: 0.59770787, y: -2.8246424}
+      - {x: 1.46875, y: -1.9375}
+      - {x: 1.46875, y: 1.9375}
+--- !u!60 &-8677545758607995959
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5239928523457997005}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.9375, y: 3.875}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.46875, y: 1.9375}
+      - {x: -1.46875, y: -1.9375}
+      - {x: -0.6842429, y: -1.9353206}
+      - {x: -0.66055274, y: -2.832383}
+      - {x: 0.33328557, y: -2.7999246}
+      - {x: 0.5019127, y: -1.88807}
+      - {x: 0.8802187, y: -1.8920442}
+      - {x: 1.46875, y: 1.9375}
 --- !u!1 &5239928523890925699
 GameObject:
   m_ObjectHideFlags: 0
