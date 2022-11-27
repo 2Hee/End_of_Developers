@@ -15,41 +15,37 @@ MonoBehaviour:
   items:
   - name: One
     value: 1
-    sprite: {fileID: 21300000, guid: f699886b6ad17df4f8baa9ea8bbcd294, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: 8fb36b01a4faf7d4c892cacbb5d6d3fe, type: 3}
+    percent: 11
   - name: Two
     value: 2
-    sprite: {fileID: 21300000, guid: 9116212e9b3a71c47b2b8e7e88da8d6e, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: c6a228d451ec6e74a83dd2e9141e061a, type: 3}
+    percent: 11
   - name: Three
     value: 3
-    sprite: {fileID: 21300000, guid: 088a0b575e8adb34eae5cbfdc25d2bd8, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: e277158e9c2d482438262faf890a7eba, type: 3}
+    percent: 11
   - name: Four
     value: 4
-    sprite: {fileID: 21300000, guid: 06fef683cdb9c10409499838b68ce49c, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: f1cfeb901b3657148af9a8e6d5816923, type: 3}
+    percent: 11
   - name: Five
     value: 5
-    sprite: {fileID: 21300000, guid: 560f1691ac30b4b4a9277881a94a73c3, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: ca26afdfbd6c2df4a8cdc3d16537e48f, type: 3}
+    percent: 11
   - name: Six
     value: 6
-    sprite: {fileID: 21300000, guid: b4cbb99db718c254da6837690258e5f3, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: 78c36f8096b169841bc5fd5b632fc4dd, type: 3}
+    percent: 11
   - name: Seven
     value: 7
-    sprite: {fileID: 21300000, guid: 8e8a63b5563379045ab7f3c06bc9ba5f, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: 6f5ec11a08a0b5c4b9567e6280dde64d, type: 3}
+    percent: 11
   - name: Eight
     value: 8
-    sprite: {fileID: 21300000, guid: d01de21387304ac46aad6b2a95ad31b1, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: cbb0db2f94c6ce848bc3079038bb11dc, type: 3}
+    percent: 11
   - name: Nine
     value: 9
-    sprite: {fileID: 21300000, guid: 1c576e929bce8af45b81b7c32a4631ad, type: 3}
-    percent: 10
-  - name: Ten
-    value: 10
-    sprite: {fileID: 21300000, guid: c7542c87db126bc458de9f83ed681616, type: 3}
-    percent: 10
+    sprite: {fileID: 21300000, guid: b00c1b1a9f3f1514eac4ff16cf8d5d86, type: 3}
+    percent: 11
