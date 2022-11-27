@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using Random = UnityEngine.Random;
 
 public class CardManager : MonoBehaviour
 {
@@ -15,6 +17,9 @@ public class CardManager : MonoBehaviour
     [SerializeField] Transform myCardRight;
 
     List<Item> itemBuffer;
+    Card selectCard;
+    bool isMyCardDrag;
+    bool onMyCardArea;
 
     public Item PopItem()
     {
@@ -58,7 +63,22 @@ public class CardManager : MonoBehaviour
 
     private void Update()
     {
-       
+        if (isMyCardDrag)
+            CardDrag();
+
+        DetectCardArea();
+    }
+
+    private void CardDrag()
+    {
+        
+    }
+
+    void DetectCardArea()
+    {
+        RaycastHit2D[] hits = Physics2D.RaycastAll(Utils.MousePos, Vector3.forward);
+        int layer = LayerMask.NameToLayer("MyCardArea");
+        onMyCardArea = Array.Exists(hits, x => x.collider.gameObject.layer == layer);
     }
 
     void AddCard(bool isMine)
@@ -134,12 +154,23 @@ public class CardManager : MonoBehaviour
     #region MyCard
     public void CardMouseOver(Card card)
     {
+        selectCard = card;
         EnlargeCard(true, card);
     }
 
     public void CardMouseExit(Card card)
     {
         EnlargeCard(false, card);
+    }
+
+    public void CardMouseDown()
+    {
+        isMyCardDrag = true;
+    }
+
+    public void CardMouseUp()
+    {
+        isMyCardDrag = false;
     }
 
     void EnlargeCard(bool isEnlarge, Card card)
